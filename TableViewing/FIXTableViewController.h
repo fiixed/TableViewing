@@ -1,5 +1,5 @@
 //
-//  FIXViewController.h
+//  FIXTableViewController.h
 //  TableViewing
 //
 //  Created by Andrew Bell on 9/7/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FIXViewController : UIViewController
+@interface FIXTableViewController : UITableViewController
 
 @end

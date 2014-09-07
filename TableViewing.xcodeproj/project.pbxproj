@@ -14,13 +14,13 @@
 		05C9D73419BCE816007E3685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C9D73319BCE816007E3685 /* main.m */; };
 		05C9D73819BCE816007E3685 /* FIXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C9D73719BCE816007E3685 /* FIXAppDelegate.m */; };
 		05C9D73B19BCE816007E3685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C9D73919BCE816007E3685 /* Main.storyboard */; };
-		05C9D73E19BCE816007E3685 /* FIXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C9D73D19BCE816007E3685 /* FIXViewController.m */; };
 		05C9D74019BCE816007E3685 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C9D73F19BCE816007E3685 /* Images.xcassets */; };
 		05C9D74719BCE816007E3685 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C9D74619BCE816007E3685 /* XCTest.framework */; };
 		05C9D74819BCE816007E3685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C9D72719BCE816007E3685 /* Foundation.framework */; };
 		05C9D74919BCE816007E3685 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C9D72B19BCE816007E3685 /* UIKit.framework */; };
 		05C9D75119BCE816007E3685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05C9D74F19BCE816007E3685 /* InfoPlist.strings */; };
 		05C9D75319BCE816007E3685 /* TableViewingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C9D75219BCE816007E3685 /* TableViewingTests.m */; };
+		05C9D75E19BCE8DF007E3685 /* FIXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C9D75D19BCE8DF007E3685 /* FIXTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		05C9D73619BCE816007E3685 /* FIXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIXAppDelegate.h; sourceTree = "<group>"; };
 		05C9D73719BCE816007E3685 /* FIXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIXAppDelegate.m; sourceTree = "<group>"; };
 		05C9D73A19BCE816007E3685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		05C9D73C19BCE816007E3685 /* FIXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIXViewController.h; sourceTree = "<group>"; };
-		05C9D73D19BCE816007E3685 /* FIXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIXViewController.m; sourceTree = "<group>"; };
 		05C9D73F19BCE816007E3685 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		05C9D74519BCE816007E3685 /* TableViewingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C9D74619BCE816007E3685 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		05C9D74E19BCE816007E3685 /* TableViewingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewingTests-Info.plist"; sourceTree = "<group>"; };
 		05C9D75019BCE816007E3685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05C9D75219BCE816007E3685 /* TableViewingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewingTests.m; sourceTree = "<group>"; };
+		05C9D75C19BCE8DF007E3685 /* FIXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIXTableViewController.h; sourceTree = "<group>"; };
+		05C9D75D19BCE8DF007E3685 /* FIXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIXTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				05C9D73619BCE816007E3685 /* FIXAppDelegate.h */,
 				05C9D73719BCE816007E3685 /* FIXAppDelegate.m */,
 				05C9D73919BCE816007E3685 /* Main.storyboard */,
-				05C9D73C19BCE816007E3685 /* FIXViewController.h */,
-				05C9D73D19BCE816007E3685 /* FIXViewController.m */,
+				05C9D75C19BCE8DF007E3685 /* FIXTableViewController.h */,
+				05C9D75D19BCE8DF007E3685 /* FIXTableViewController.m */,
 				05C9D73F19BCE816007E3685 /* Images.xcassets */,
 				05C9D72E19BCE816007E3685 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C9D73E19BCE816007E3685 /* FIXViewController.m in Sources */,
 				05C9D73819BCE816007E3685 /* FIXAppDelegate.m in Sources */,
+				05C9D75E19BCE8DF007E3685 /* FIXTableViewController.m in Sources */,
 				05C9D73419BCE816007E3685 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
